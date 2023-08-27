@@ -37,7 +37,7 @@ const CardComp = ({ data }) => {
 						</h3>
 
 						<div className="flex xz:flex-col sd:flex-row">
-							<Image src={el.img} alt={el.alt} width='300' height={50} className="rounded-md shadow-lg" />
+							<Image src={el.img} alt={el.alt} width={350} height={250} className="rounded-md shadow-lg" />
 
 							<div className="xz:mt-8 sd:mt-0 xz:ml-0 sd:ml-4">
 								{el.info.length ? el.info.map((elem, idx) => {
