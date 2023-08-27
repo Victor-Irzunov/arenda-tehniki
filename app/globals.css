@@ -32,6 +32,3 @@ button, [type='button'], [type='submit']
   color: #fff;
   background-color: #eab308;
 }
-input:focus {
-	outline: none; 
- }
