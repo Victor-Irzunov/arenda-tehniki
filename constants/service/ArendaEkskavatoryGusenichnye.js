@@ -1,6 +1,76 @@
 export const data = [
 	{
 		id: 1,
+		title: 'Аренда Hyundai R210LC-7',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/hyundai_r210lc-7.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: true,
+		opisanie: (
+			<div className="bg-gray-100 p-4"> <h2 className="text-lg font-medium mb-2">Описание характеристик Hyundai r210lc-7</h2>
+				<p className="text-gray-700"> <span className="font-bold">Hyundai R210LC-7</span> - это экскаватор-погрузчик на гусеничном ходу производства компании Hyundai Construction Equipment. </p>
+				<p className="text-gray-700 mb-2"> Относится к классу машин с рабочим весом 20-25 тонн. Оснащен дизельным двигателем Hyundai мощностью 168 л.с. </p>
+				<p className="text-gray-700 mb-2"> Ковш вместимостью от 0,8 до 1,15 куб.м. Максимальная глубина копания составляет 6580 мм. Максимальная высота выгрузки 6670 мм. </p>
+				<p className="text-gray-700 mb-2"> Максимальный радиус копания составляет 9420 мм. Гусеничный ход для устойчивости и проходимости в сложных условиях. </p>
+				<p className="text-gray-700 mb-2"> Кабина оператора оборудована системой кондиционирования. Современные системы безопасности и комфорта. </p>
+			</div>
+		),
+	},
+	{
+		id: 2,
+		title: 'Аренда Hitachi zx280lc-3',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/Hitachi_zx280lc-3.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: true,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h2 className="text-lg font-medium mb-2">Описание характеристик Hitachi ZX280LC-3</h2>
+				<p className="text-gray-700"> <span className="font-bold">Hitachi ZX280LC-3</span> - это экскаватор-погрузчик на гусеничном ходу от известного японского производителя строительной техники Hitachi. </p>
+				<p className="text-gray-700 mb-2"> Относится к классу машин с рабочим весом 28 тонн. Оснащен дизельным двигателем Hitachi мощностью 162 л.с.
+				</p>
+				<p className="text-gray-700 mb-2"> Ковш вместимостью 1-1,2 куб.м. Максимальная глубина копания до 6560 мм. Максимальная высота выгрузки 6680 мм.
+				</p>
+				<p className="text-gray-700 mb-2"> Максимальный радиус копания составляет 9760 мм. Гусеничный ход с шагом 2380 мм для устойчивости.
+				</p>
+				<p className="text-gray-700 mb-2"> Комфортная кабина оператора, система кондиционирования. Современные системы безопасности и управления.
+				</p>
+			</div>
+		),
+	},
+	{
+		id: 3,
+		title: 'Аренда Volvo ec210b',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/Volvo_ec210b.webp',
+		alt: '',
+		info: [],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: true,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h2 className="text-lg font-medium mb-2">Описание характеристик Volvo EC210B</h2>
+				<p className="text-gray-700">
+					<span className="font-bold">Volvo EC210B</span>
+					- экскаватор-погрузчик на гусеничном ходу от известного шведского производителя Volvo Construction Equipment.
+				</p>
+				<p className="text-gray-700 mb-2"> Относится к классу машин с рабочим весом 22 тонны. Оснащен дизельным двигателем Volvo мощностью 143 л.с.
+				</p>
+				<p className="text-gray-700 mb-2"> Ковш вместимостью 1-1,05 куб.м. Максимальная глубина копания до 6570 мм. Максимальная высота выгрузки 6590 мм.
+				</p> <p className="text-gray-700 mb-2"> Максимальный радиус копания составляет 9760 мм. Гусеничный ход для устойчивости и маневренности.
+				</p>
+				<p className="text-gray-700 mb-2"> Кабина оператора с системой кондиционирования. Современные системы управления и безопасности.
+				</p>
+			</div>
+		),
+	},
+	{
+		id: 4,
 		title: 'Аренда JCB JS260 LC',
 		img: '/serviceUniversal/ekskavatory-gusenichnye/jcb.webp',
 		alt: '',
@@ -11,7 +81,7 @@ export const data = [
 
 		],
 		price: 'от 105 бел.руб. без НДС',
-		nalichie: true,
+		nalichie: false,
 		opisanie: (
 			<div className="">
 				<h2>Гусеничный экскаватор JCB JS260 LC</h2> <p>JCB JS260 LC - мощный гусеничный экскаватор от известного производителя. Предназначен для земляных работ, планировки, погрузки.</p> <h3>Характеристики:</h3> <ul> <li>Производитель: JCB (Великобритания)</li> <li>Грузоподъемность: 26 тонн</li> <li>Мощность двигателя: 300 л.с.</li> <li>Тип двигателя: дизельный</li> <li>Ходовая часть: гусеничная</li> </ul> <p>Экскаватор отличается высокой производительностью, надежностью, простотой в управлении. Арендуйте выгодно!</p>
@@ -19,7 +89,7 @@ export const data = [
 		),
 	},
 	{
-		id: 2,
+		id: 5,
 		title: 'Аренда HITACHI ZX 350 H',
 		img: '/serviceUniversal/ekskavatory-gusenichnye/hitachi.webp',
 		alt: '',
