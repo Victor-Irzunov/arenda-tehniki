@@ -106,6 +106,85 @@ export const data = [
 			</div>
 		),
 	},
+	{
+		id: 6,
+		title: 'Аренда экскаватора Komatsu PC210',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/komatsu-pc210.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 110 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="px-2">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики гусеничного экскаватора Komatsu PC210</h3>
+
+				<ul className="pl-6">
+					<li className="mb-2">Масса: Около 21 тонны</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 165 л.с.</li>
+					<li className="mb-2">Рабочий объем ковша: От 0.8 до 1.5 куб. м</li>
+					<li className="mb-2">Максимальная глубина копки: Примерно 6 метров</li>
+					<li className="mb-2">Скорость движения: До 5.5 км/час</li>
+					<li className="mb-2">Оборотность: 10-11 оборотов в минуту</li>
+					<li className="mb-2">Применение: Земельные и строительные работы, добыча и транспортировка материалов</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 7,
+		title: 'Аренда экскаватора Сaterpillar 323 DL',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/saterpillar-323-dl.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 110 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="px-2">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики гусеничного экскаватора Caterpillar 323 DL</h3>
+
+				<ul className="pl-6">
+					<li className="mb-2">Масса: Около 24 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 150-180 л.с.</li>
+					<li className="mb-2">Рабочий объем ковша: От 0.6 до 1.5 куб. м</li>
+					<li className="mb-2">Максимальная глубина копки: Примерно 7 метров</li>
+					<li className="mb-2">Скорость движения: До 5.5 км/час</li>
+					<li className="mb-2">Оборотность: 8-9 оборотов в минуту</li>
+					<li className="mb-2">Применение: Земельные и строительные работы, добыча и транспортировка материалов</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 8,
+		title: 'Аренда экскаватора CASE CX130C',
+		img: '/serviceUniversal/ekskavatory-gusenichnye/case-cx130c.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 110 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="px-2">
+				<h3 className="text-lg font-semibold mb-4">Характеристики гусеничного экскаватора CASE CX130C</h3>
+
+				<ul className="pl-6">
+					<li className="mb-2">Масса: Около 13 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 98 л.с.</li>
+					<li className="mb-2">Рабочий объем ковша: От 0.3 до 0.8 куб. м</li>
+					<li className="mb-2">Максимальная глубина копки: Примерно 5.8 метров</li>
+					<li className="mb-2">Скорость движения: До 5.6 км/час</li>
+					<li className="mb-2">Оборотность: 8-9 оборотов в минуту</li>
+					<li className="mb-2">Применение: Земельные и строительные работы, добыча и транспортировка материалов</li>
+				</ul>
+
+			</div>
+		),
+	},
 ]
 
 export const title = {

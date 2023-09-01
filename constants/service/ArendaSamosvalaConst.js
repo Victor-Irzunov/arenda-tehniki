@@ -1,6 +1,57 @@
 export const data = [
 	{
 		id: 1,
+		title: 'Аренда самосвала МАЗ 5516',
+		img: '/serviceUniversal/samosval/maz-5516-1.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: true,
+		opisanie: (
+			<div className="px-2">
+				<h1 className="text-2xl font-semibold mb-4">Характеристики МАЗ 5516</h1>
+				<ul className="pl-6">
+					<li className="mb-2">Грузоподъемность: 20 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 240-300 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная, с вариантом двойной кабины</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: 15 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 2,
+		title: 'Аренда самосвала МАЗ 6501',
+		img: '/serviceUniversal/samosval/maz-6501.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: true,
+		opisanie: (
+			<div className="px-2">
+				<h1 className="text-2xl font-semibold mb-4">Характеристики МАЗ 6501</h1>
+
+				<ul className="pl-6">
+					<li className="mb-2">Грузоподъемность: Около 15 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 330-420 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная современная кабина</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 30 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 3,
 		title: 'Аренда самосвала MAN TGS 41.390',
 		img: '/serviceUniversal/samosval/man.webp',
 		alt: '',
@@ -52,9 +103,9 @@ export const data = [
 		),
 	},
 	{
-		id: 2,
-		title: 'Аренда самосвала МАЗ',
-		img: '/serviceUniversal/samosval/maz.webp',
+		id: 4,
+		title: 'Аренда самосвала Volvo fm8x4',
+		img: '/serviceUniversal/samosval/Volvo-FM8x4.webp',
 		alt: '',
 		info: [
 			'',
@@ -67,27 +118,119 @@ export const data = [
 		opisanie: (
 			<div className="bg-gray-100 p-4">
 
-				<div className="flex">
+				<ul className=" pl-6">
+					<li className="mb-2">Грузоподъемность: Около 32 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 330-540 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная современная кабина</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 20 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
 
-					<div className="flex-1">
+			</div>
+		),
+	},
+	{
+		id: 5,
+		title: 'Аренда самосвала Daf cf 6x4',
+		img: '/serviceUniversal/samosval/Daf cf 6x4.webp',
+		alt: '',
+		info: [
 
-						<h3 className="font-semibold mb-2">Характеристики:</h3>
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики DAF CF 6x4</h3>
+				<ul className="pl-6">
+					<li className="mb-2">Грузоподъемность: Около 26 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 330-530 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная, современный дизайн</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 20 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 6,
+		title: 'Аренда самосвала Volvo fm6x4',
+		img: '/serviceUniversal/samosval/Volvo fm6x4.webp',
+		alt: '',
+		info: [
 
-						<ul className="list-disc text-gray-600 pl-5">
-							<li>Грузоподъемность - 8 тонн</li>
-							<li>Мощность двигателя - 180 л.с.</li>
-							<li>Колесная формула - 6x4</li>
-							<li>Объем кузова - 10 куб.м</li>
-						</ul>
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики Volvo FM 6x4</h3>
+				<ul className="list-disc pl-6">
+					<li className="mb-2">Грузоподъемность: Около 26 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 330-540 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная современная кабина</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 20 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
+			</div>
+		),
+	},
+	{
+		id: 7,
+		title: 'Аренда самосвала Shacman 8x4 x3000',
+		img: '/serviceUniversal/samosval/Shacman 8x4 x3000.webp',
+		alt: '',
+		info: [
 
-					</div>
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики Shacman X3000 8x4</h3>
 
-				</div>
+				<ul className="list-disc pl-6">
+					<li className="mb-2">Грузоподъемность: Около 30 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 400-600 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная, современный дизайн</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 25 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
 
-				<p className="text-gray-700 mt-3">
-					Самосвал МАЗ 5516А5-371 обладает хорошей маневренностью и проходимостью.
-					Подходит для перевозки сыпучих грузов на небольшие расстояния.
-				</p>
+			</div>
+		),
+	},
+	{
+		id: 8,
+		title: 'Аренда самосвала Shacmsn 6x4 x3000',
+		img: '/serviceUniversal/samosval/Shacmsn 6x4 x3000.webp',
+		alt: '',
+		info: [
+
+		],
+		price: 'от 105 бел.руб. без НДС',
+		nalichie: false,
+		opisanie: (
+			<div className="bg-gray-100 p-4">
+				<h3 className="text-2xl font-semibold mb-4">Характеристики Shacman X3000 6x4</h3>
+
+				<ul className="list-disc pl-6">
+					<li className="mb-2">Грузоподъемность: Около 20 тонн</li>
+					<li className="mb-2">Двигатель: Дизель, мощность 380-480 л.с.</li>
+					<li className="mb-2">Трансмиссия: Механическая или автоматическая</li>
+					<li className="mb-2">Кабина: Комфортабельная, современный дизайн</li>
+					<li className="mb-2">Подвеска: Жесткая для надежной грузоподъемности</li>
+					<li className="mb-2">Объем кузова: Разнообразные варианты, до 20 куб. м</li>
+					<li className="mb-2">Применение: Грузоперевозки на стройплощадках, в сельском хозяйстве и др.</li>
+				</ul>
 
 			</div>
 		),

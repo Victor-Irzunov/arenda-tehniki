@@ -26,12 +26,11 @@ const CardComp = ({ data }) => {
 		}
 	}
 
-
 	return (
 		<div className="">
 			{data && data.data.map(el => {
 				return (
-					<div className="bg-gray-50 py-6 px-2 rounded-md shadow-lg mb-10 border overflow-hidden" key={el.id}>
+					<div className="bg-gray-50 py-6 px-3 rounded-md shadow-lg mb-10 border overflow-hidden" key={el.id}>
 						<h3 className="font-semibold uppercase text-xl xz:mb-4 sd:mb-8">
 							{el.title}
 						</h3>
