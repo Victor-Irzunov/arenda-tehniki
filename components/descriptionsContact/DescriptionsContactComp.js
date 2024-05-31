@@ -33,8 +33,8 @@ const DescriptionsContactComp = () => {
 				</Space>
 			</Descriptions.Item>
 			<Descriptions.Item label="Телефон">
-				<a href='tel:80293339843' className=''>
-					+375 29 333-98-43
+				<a href='tel:8029' className=''>
+					+375 29 000-00-00
 				</a>
 			</Descriptions.Item>
 			<Descriptions.Item label="Почта">

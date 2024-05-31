@@ -38,8 +38,8 @@ const Footer = () => {
 						</p>
 						<p>
 							<PhoneOutlined className='mr-3 rotate-90 text-lg' />
-							<a href='tel:80293339843' className=''>
-							+375 29 333-98-43
+							<a href='tel:8029' className=''>
+							+375 29 000-00-00
 							</a>
 						</p>
 						<p>
@@ -91,7 +91,7 @@ const Footer = () => {
 				<div
 					className='mt-6 border-t border-black pt-2'
 				>
-					<p className='text-black/50 xs:text-xs xz:text-[10px]' >Copyright © 2013-2023 | Разработка и Продвижение
+					<p className='text-black/50 xs:text-xs xz:text-[10px]' >Copyright © 2024 | Разработка и Продвижение
 						<a href='https://vi-tech.by' target='_blank' rel="noreferrer" className='text-blue-700 no-underline'> VI:TECH</a>
 					</p>
 				</div>

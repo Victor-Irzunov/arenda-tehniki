@@ -106,11 +106,11 @@ const Header = () => {
           </nav>
           <div className=''>
             <a
-              href='tel:80293339843'
+              href='tel:8029'
               className='block xx:text-lg xz:pt-2 xz:text-sm'
             // onClick={() => gtag_report_conversion('/')}
             >
-              +375 29 333-98-43
+              +375 29 000-00-00
             </a>
           </div>
 
