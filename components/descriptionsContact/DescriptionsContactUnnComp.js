@@ -3,13 +3,15 @@
 import { Descriptions } from 'antd'
 const DescriptionsContactUnnComp = () => (
 	<Descriptions title="Реквизиты">
-		<Descriptions.Item label="УНП">0000000</Descriptions.Item>
-		<Descriptions.Item label="Банк">ЗАО "АЛЬФА-БАНК"</Descriptions.Item>
-		<Descriptions.Item label="р/c">BY66 ALFA 0000 2D32 0000 000- 0000</Descriptions.Item>
-		<Descriptions.Item label="SWIFT">
-			ALFABY2X
+		<Descriptions.Item label="УНП">692200268</Descriptions.Item>
+		<Descriptions.Item label="Банк">ОАО "Приорбанк"</Descriptions.Item>
+		<Descriptions.Item label="р/c">BY05PJCB30120709541000000933
 		</Descriptions.Item>
-		<Descriptions.Item label="Адрес банка"> 220013 Минск, ул. Сурганова, 43-47</Descriptions.Item>
+		<Descriptions.Item label="БИК">
+			PJCBBY2X
+		</Descriptions.Item>
+		<Descriptions.Item label="Адрес банка"> в ЦБУ № 100 ОАО "Приорбанк"
+			РБ, 220002, г. Минск, ул. Веры Хоружей, 31А</Descriptions.Item>
 	</Descriptions>
 )
 export default DescriptionsContactUnnComp

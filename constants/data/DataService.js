@@ -9,27 +9,27 @@ export const dataService = [
 	{
 		id: 2,
 		title: 'Аренда самоcвалов',
-		link: '/arenda-samosvala'
+		link: '/uslugi/arenda-samosvala'
 	},
 	{
 		id: 3,
 		title: 'Аренда трала',
-		link:'/arenda-trala'
+		link:'/uslugi/arenda-trala'
 	},
 	{
 		id: 4,
 		title: 'Аренда колесных экскаваторов',
-		link:'/arenda-kolesnogo-ekskavatora'
+		link:'/uslugi/arenda-kolesnogo-ekskavatora'
 	},
 	{
 		id: 5,
 		title: 'Аренда экскаваторов-погрузчиков',
-		link:'/arenda-exkavatora-pogruzchika'
+		link:'/uslugi/arenda-exkavatora-pogruzchika'
 	},
 	{
 		id: 6,
 		title: 'Аренда гусеничного экскаватора',
-		link:'/arenda-gusenichnogo-ekskavatora'
+		link:'/uslugi/arenda-gusenichnogo-ekskavatora'
 	},
 ]
 

@@ -7,7 +7,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: true,
 		opisanie: (
 			<div className="px-2">
@@ -32,7 +32,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: true,
 		opisanie: (
 			<div className="px-2">
@@ -60,7 +60,7 @@ export const data = [
 			'Объем кузова - 12,5 м3',
 			'Грузоподъемность - 20 тонн'
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: true,
 		opisanie: (
 			<div className="">
@@ -113,7 +113,7 @@ export const data = [
 			'',
 			''
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: false,
 		opisanie: (
 			<div className="bg-gray-100 p-4">
@@ -139,7 +139,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: false,
 		opisanie: (
 			<div className="bg-gray-100 p-4">
@@ -164,7 +164,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: false,
 		opisanie: (
 			<div className="bg-gray-100 p-4">
@@ -189,7 +189,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: false,
 		opisanie: (
 			<div className="bg-gray-100 p-4">
@@ -216,7 +216,7 @@ export const data = [
 		info: [
 
 		],
-		price: 'от 105 бел.руб. без НДС',
+		price: 'от 65 бел.руб. 20% НДС (мин. 4ч)',
 		nalichie: false,
 		opisanie: (
 			<div className="bg-gray-100 p-4">

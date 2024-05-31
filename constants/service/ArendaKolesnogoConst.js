@@ -11,7 +11,7 @@ export const data = [
 			'Макс. высота выгрузки - 3850 мм',
 
 		],
-		price: 'от 95 бел.руб. без НДС',
+		price: 'договорная',
 		nalichie: true,
 		opisanie: (
 			<div className="">
@@ -61,7 +61,7 @@ export const data = [
 			'Макс. высота выгрузки - 9560 мм',
 
 		],
-		price: 'от 95 бел.руб. без НДС',
+		price: 'договорная',
 		nalichie: false,
 		opisanie: (
 			<div className="">

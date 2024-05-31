@@ -17,9 +17,9 @@ const DescriptionsContactComp = () => {
 			<Descriptions.Item label="Наименование">
 				ООО «ВМТехноГруз»
 			</Descriptions.Item>
-			<Descriptions.Item label="Адрес">
+			<Descriptions.Item label="Юр. адрес">
 				Республика Беларусь<br />
-				220015, г. Минск, ул. Минская, 100А
+				223017, Минская обл., Минский р-он, Новодворский с/с., аг. Гатово, 17А.
 			</Descriptions.Item>
 			<Descriptions.Item label="Время работы">
 				<Space direction="vertical">
@@ -33,12 +33,12 @@ const DescriptionsContactComp = () => {
 				</Space>
 			</Descriptions.Item>
 			<Descriptions.Item label="Телефон">
-				<a href='tel:80295086162' className=''>
-					+375 29 000 00 00
+				<a href='tel:80293339843' className=''>
+					+375 29 333-98-43
 				</a>
 			</Descriptions.Item>
 			<Descriptions.Item label="Почта">
-				....@gmail.com
+				vmtehno@mail.ru
 			</Descriptions.Item>
 		</Descriptions>
 	)

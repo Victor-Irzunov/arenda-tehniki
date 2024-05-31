@@ -6,42 +6,42 @@ export const dataMainService = [
 		title: 'Аренда самосвала',
 		img: '/mainServiceSection/samosval.webp',
 		alt: 'аренда самосвала',
-		link:'arenda-samosvala'
+		link:'/uslugi/arenda-samosvala'
 	},
 	{
 		id: 2,
 		title: 'Аренда трала и низкорамных площадок',
 		img: '/mainServiceSection/traly.webp',
 		alt: 'аренда трала',
-		link:'arenda-trala'
+		link:'/uslugi/arenda-trala'
 	},
 	{
 		id: 3,
 		title: 'Аренда фронтальных погрузчиков',
 		img: '/mainServiceSection/pogruzchik.webp',
 		alt: 'Аренда фронтальных погрузчиков',
-		link:'arenda-frontalnyh-pogruzchikov'
+		link:'/uslugi/arenda-frontalnyh-pogruzchikov'
 	},
 	{
 		id: 4,
 		title: 'Аренда колесных экскаваторов',
 		img: '/mainServiceSection/kolesnyj.webp',
 		alt: 'Аренда колесных экскаваторов',
-		link:'arenda-kolesnogo-ekskavatora'
+		link:'/uslugi/arenda-kolesnogo-ekskavatora'
 	},
 	{
 		id: 5,
 		title: 'Аренда экскаваторов-погрузчиков',
 		img: '/mainServiceSection/ekskovator.webp',
 		alt: 'Аренда экскаваторов-погрузчиков',
-		link:'arenda-exkavatora-pogruzchika'
+		link:'/uslugi/arenda-exkavatora-pogruzchika'
 	},
 	{
 		id: 6,
 		title: 'Аренда гусеничного экскаватора',
 		img: '/mainServiceSection/gusenichnyj.webp',
 		alt: 'Аренда гусеничного экскаватора',
-		link:'arenda-gusenichnogo-ekskavatora'
+		link:'/uslugi/arenda-gusenichnogo-ekskavatora'
 	},
 ]
 

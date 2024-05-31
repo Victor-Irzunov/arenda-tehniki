@@ -38,22 +38,25 @@ const Footer = () => {
 						</p>
 						<p>
 							<PhoneOutlined className='mr-3 rotate-90 text-lg' />
-							<a href='tel:8029' className=''>
-								+375 29 000 00 00
+							<a href='tel:80293339843' className=''>
+							+375 29 333-98-43
 							</a>
 						</p>
 						<p>
 							<MailOutlined className='mr-3 text-lg' />
-							..........@gmail.com
+							vmtehno@mail.ru
 						</p>
 					</div>
 
 					<div className='font-light text-base xs:mb-4 xx:mb-4 xy:mb-4 xz:mb-4 xm:mb-0'>
 						<p className='border-b border-t-transparent border-l-transparent border-r-transparent border-black/60 border-solid font-light text-lg'>
-							Юр. адрес
+							Адрес
 						</p>
 						<p>
-							220015, г. Минск, ул. Минская, 100А
+						223062, Минская обл., Минский р-он,
+						</p>
+						<p>
+						Луговослободской с/с., п. Привольный ул. Мира 20А.
 						</p>
 					</div>
 					<div className='font-light text-base xs:mb-4 xx:mb-4 xy:mb-4 xz:mb-4 xm:mb-0'>
@@ -73,10 +76,10 @@ const Footer = () => {
 							Мы в соц. сетях
 						</p>
 						<div className='flex justify-evenly items-center pt-3'>
-							<a href='https://www.instagram.com/ecosanproect' target='_blank' >
+							<a href='https://www.instagram.com/' target='_blank' >
 								<Image src={instagram} width={25} alt='иконка инстаграма' />
 							</a>
-							<a href={`${screens.md ? 'https://t.me/Andrei_ECO' : 'https://t.me/@Andrei_ECO'}`} target='_blank' >
+							<a href={`${screens.md ? 'https://t.me/' : 'https://t.me/@'}`} target='_blank' >
 								<Image src={telegram} width={25} alt='иконка телеграма' />
 							</a>
 							<a href='viber://chat?number=%2B375' target='_blank' >

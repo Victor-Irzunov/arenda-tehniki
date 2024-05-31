@@ -1,9 +1,6 @@
 import Header from '@/components/header/Header'
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Footer from '@/components/footer/Footer'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Аренда спецтехники в Минске и Беларуси',
@@ -23,8 +20,9 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <meta name="google-site-verification" content="elE_9qoRzFPkKkJXY_pMCHBRQKRc9mNMGBNI37mwvP0" />
       </head>
-      <body className={inter.className}>
+      <body>
         <Header />
         {children}
         <Footer />
