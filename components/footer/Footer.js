@@ -39,7 +39,7 @@ const Footer = () => {
 						<p>
 							<PhoneOutlined className='mr-3 rotate-90 text-lg' />
 							<a href='tel:8029' className=''>
-							+375 29 000-00-00
+								+375 29 000-00-00
 							</a>
 						</p>
 						<p>
@@ -53,10 +53,10 @@ const Footer = () => {
 							Адрес
 						</p>
 						<p>
-						223062, Минская обл., Минский р-он,
+							223062, Гродненская обл., Гродно,
 						</p>
 						<p>
-						Луговослободской с/с., п. Привольный ул. Мира 20А.
+							пр. Мира 1000
 						</p>
 					</div>
 					<div className='font-light text-base xs:mb-4 xx:mb-4 xy:mb-4 xz:mb-4 xm:mb-0'>

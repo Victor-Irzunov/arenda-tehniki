@@ -15,11 +15,11 @@ const DescriptionsContactComp = () => {
 			labelStyle={{ fontWeight: "bold" }}
 		>
 			<Descriptions.Item label="Наименование">
-				ООО «ВМТехноГруз»
+				ООО «ГрузБел»
 			</Descriptions.Item>
 			<Descriptions.Item label="Юр. адрес">
 				Республика Беларусь<br />
-				223017, Минская обл., Минский р-он, Новодворский с/с., аг. Гатово, 17А.
+				223000, Гродноая обл.,
 			</Descriptions.Item>
 			<Descriptions.Item label="Время работы">
 				<Space direction="vertical">
@@ -38,7 +38,7 @@ const DescriptionsContactComp = () => {
 				</a>
 			</Descriptions.Item>
 			<Descriptions.Item label="Почта">
-				vmtehno@mail.ru
+			...@mail.ru
 			</Descriptions.Item>
 		</Descriptions>
 	)

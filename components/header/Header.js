@@ -80,7 +80,7 @@ const Header = () => {
                 src={logo}
                 width={screens.lg ? 90 : 70}
                 height='auto'
-                alt='логотип компании ООО ВМТехноГруз'
+                alt='логотип компании ООО ГрузБел'
               />
             </Link>
           </div>

@@ -35,7 +35,7 @@ export default function Home() {
         <div className='flex justify-between sd:w-1/2 xz:w-full'>
           <div className='pt-20 text-white'>
             <h1 className='font-bold xs:text-3xl xz:text-2xl uppercase'>
-              Аренда <span className='text-yellow-400'>спецтехники</span> в Минске
+              Аренда <span className='text-yellow-400'>спецтехники</span> в Гродно
             </h1>
             <p className="font-light mt-4 text-sm">
               Аренда строительной техники в нашей компании - это гарантия надежности и безопасности. Мы предоставляем в аренду только исправную технику от проверенных производителей. Наши специалисты регулярно проводят техобслуживание и ремонт. Вы можете быть уверены, что арендованная у нас техника не подведет на стройке. Обращайтесь к нам за качественной арендой строительной техники по выгодным ценам!

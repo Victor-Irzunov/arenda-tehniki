@@ -3,8 +3,8 @@ import './globals.css'
 import Footer from '@/components/footer/Footer'
 
 export const metadata = {
-  title: 'Аренда спецтехники в Минске и Беларуси',
-  description: 'У нас вы можете взять в аренду спецтехнику в Минске и других городах Беларуси - экскаваторы, бульдозеры, самосвалы и другую строительную технику. Большой парк техники, доставка по всей стране, выгодные цены. Звоните прямо сейчас!',
+  title: 'Аренда спецтехники в Гродно и Беларуси',
+  description: 'У нас вы можете взять в аренду спецтехнику в Гродно и других городах Беларуси - экскаваторы, бульдозеры, самосвалы и другую строительную технику. Большой парк техники, доставка по всей стране, выгодные цены. Звоните прямо сейчас!',
 }
 
 export default function RootLayout({ children }) {
@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
-        <meta name="google-site-verification" content="elE_9qoRzFPkKkJXY_pMCHBRQKRc9mNMGBNI37mwvP0" />
       </head>
       <body>
         <Header />
